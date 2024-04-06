@@ -11,26 +11,26 @@ const Nav = () => {
 
       <img
         src="https://tse4.mm.bing.net/th?id=OIP.Z3nAIhOGA9ZAK39qpijsaQHaA-&pid=Api&P=0&h=180"
-        className="h-4 mt-0 ml-2"
+        className="h-4 mt-0 ml-2 hover:cursor-pointer"
       />
       <ul className="flex gap-10 ml-auto mr-16 list-none p-0">
-        <li className="text-base text-zinc-500 cursor-pointer font-body">
+        <li className="text-sm text-zinc-500 cursor-pointer font-body hover:text-sky-600">
           SignUp
         </li>
-        <li className="font-body text-base text-zinc-500 cursor-pointer">
+        <li className="font-body text-sm text-zinc-500 cursor-pointer hover:text-sky-600">
           About
         </li>
-        <li className="text-base font-body text-zinc-500 cursor-pointer">
+        <li className="text-sm font-body text-zinc-500 cursor-pointer hover:text-sky-600">
           Product
         </li>
-        <li className="text-base text-zinc-500 font-body cursor-pointer">
+        <li className="text-sm text-zinc-500 font-body cursor-pointer hover:text-sky-600">
           Pricing
         </li>
-        <li className="text-base text-zinc-500 cursor-pointer font-body">
+        <li className="text-sm text-zinc-500 cursor-pointer font-body hover:text-sky-600">
           Support
         </li>
       </ul>
-      <IoMdMenu size={30} className="cursor-pointer" />
+      <IoMdMenu size={28} className="cursor-pointer" />
     </nav>
   );
 };

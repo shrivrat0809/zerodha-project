@@ -11,7 +11,7 @@ const Hero = ({ title,description }) => {
           </h5>
         </div>
         <div className=" flex justify-center items-center">
-          <button className="justify-center mt-4 items-center border-0 bg-sky-600 hover:bg-black text-white text-lg py-2 px-8 rounded font-body">
+          <button className="justify-center mt-4 items-center border-0 bg-sky-600 hover:bg-black text-white text-lg py-2 px-8 rounded font-body cursor-pointer">
             Sign up now
           </button>
         </div>

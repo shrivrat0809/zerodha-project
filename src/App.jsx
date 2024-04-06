@@ -15,14 +15,16 @@ function App() {
             more"
       />
       <Acheivment
-        img="https://secure.gravatar.com/avatar/6681229bfdc45f5c67ba43f912b95ad3?s=500&d=mm&r=g"
+        img="https://www.forbesindia.com/media/images/2022/Jun/img_187897_zerodhacofounders.jpg"
+        imgBottom="https://zerodha.com/static/images/press-logos.png"
         title="Largest stock broker in India"
-        description="Largest stock broker in India"
+        description="1.3+ Crore Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:"
       />
-      <AccountOpen
+
+      {/* <AccountOpen
         title="Open a Zerodha account"
         description="Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades."
-      />
+      /> */}
     </>
   );
 }
