@@ -19,10 +19,10 @@ function App() {
         title="Largest stock broker in India"
         description="Largest stock broker in India"
       />
-      {/* <AccountOpen
+      <AccountOpen
         title="Open a Zerodha account"
         description="Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades."
-      /> */}
+      />
     </>
   );
 }
