@@ -24,7 +24,7 @@ const Acheivment = ({ title, description, img }) => {
           <p className="font-body font-normal text-slate-500 mt-7 leading-loose text-lg mb-10">
             {description}
           </p>
-          <div className="flex ml-0 mx-auto">
+          <div className="flex ml-0  mt-0 mx-auto">
             <div className=" w-1/2 mr-4">
               <ul className=" ml-0">
                 {firstThree.map((feature) => (
@@ -51,7 +51,7 @@ const Acheivment = ({ title, description, img }) => {
             </div>
           </div>
           <div>
-            <img src="https://zerodha.com/static/images/press-logos.png" className=" mt-6 h-8 hover: cursor-pointer" />
+            <img src="https://zerodha.com/static/images/press-logos.png" className=" mt-0 h-8 hover: cursor-pointer" />
           </div>
         </div>
       </div>
