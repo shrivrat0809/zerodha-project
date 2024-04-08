@@ -5,6 +5,15 @@ import Acheivment from "./Components/Acheivment";
 import Trust from "./Components/Trust";
 import Pricing from "./Components/Pricing";
 import AccountOpen from "./Components/AccountOpen";
+import Footer from "./Components/Footer";
+import {
+  FaTwitter,
+  FaFacebookSquare,
+  FaInstagram,
+  FaLinkedin,
+  FaTelegram,
+  FaYoutube,
+} from "react-icons/fa";
 
 function App() {
   const trustSections = [
@@ -40,6 +49,41 @@ function App() {
       option: "Intraday and F&O",
     },
   ];
+
+  const icons = [
+    <FaTwitter />,
+    <FaFacebookSquare />,
+    <FaInstagram />,
+    <FaLinkedin />,
+    <FaTelegram />,
+    <FaYoutube />,
+  ];
+
+  const list1 = [
+    "About",
+    "Products",
+    "Pricing",
+    "Referral programme",
+    "Careers",
+    "Zerodha.tech",
+    "Press & media",
+    "Zerodha Cares (CSR)",
+  ];
+
+  const list2 = [
+    "Contact us",
+    "Support portal",
+    "Z-Connect blog",
+    "List of charges",
+    "Downloads & resources",
+    "Videos",
+    "Market overview",
+    "How to file a complaint?",
+    "Status of your complaints",
+  ];
+
+  const list3 = ["Open an account","Fund transfer"];
+
   return (
     <>
       <Nav />
@@ -68,6 +112,17 @@ function App() {
       <AccountOpen
         title="Open a Zerodha account"
         description="Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades."
+      />
+      <Footer
+        logo="https://tse4.mm.bing.net/th?id=OIP.Z3nAIhOGA9ZAK39qpijsaQHaA-&pid=Api&P=0&h=18"
+        copyright="© 2010 - 2024, Zerodha Broking Ltd. All rights reserved."
+        icons={icons}
+        t1="Company"
+        t2="Support"
+        t3="Account"
+        list1={list1}
+        list2={list2}
+        list3={list3}
       />
     </>
   );

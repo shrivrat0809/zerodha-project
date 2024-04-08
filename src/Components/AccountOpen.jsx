@@ -1,7 +1,7 @@
 const AccountOpen = ({title,description}) => {
   return (
     <>
-      <div className="mt-20">
+      <div className="mt-20 mb-24">
         <div>
           <h1 className=" text-center font-medium  text-3xl mt-10 mb-4 font-body text-slate-700">
             {title}
